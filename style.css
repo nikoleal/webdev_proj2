@@ -49,15 +49,18 @@ header {
   padding: 2em 0;
   background: #007bff;
   color: #fff;
+  border-bottom: 5px solid #0056b3;
 }
 
 header h1 {
   margin-bottom: 0.5em;
   font-size: 2.5em;
+  color: #fff;
 }
 
 header p {
   font-size: 1.2em;
+  color: #e2e2e2;
 }
 
 /* Section Styles */
@@ -67,6 +70,8 @@ section {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+  color: #333;
 }
 
 /* Specific page styles for fluid and fixed layouts */
@@ -75,12 +80,19 @@ section {
   max-width: 1200px;
   padding: 2%; /* Relative padding */
   margin: 2% auto; /* Relative margin */
+  display: block;
+  box-sizing: border-box;
+  min-height: calc(100vh - 150px); /* Adjust based on actual header/footer height */
 }
 
 .fixed-width-layout {
   width: 960px; /* Fixed width */
   margin: 20px auto;
   padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  min-height: calc(100vh - 150px); /* Adjust based on actual header/footer height */
 }
 
 /* Image Styles */
@@ -101,4 +113,5 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
