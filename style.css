@@ -1,6 +1,6 @@
-/* General Body Styles */
+
 body {
-  font-family: 'Roboto', sans-serif; /* Google Font and native browser font */
+  font-family: 'Roboto', sans-serif; 
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
   color: #333;
 }
 
-/* Navigation Bar */
+
 nav {
   background: #333;
   color: #fff;
@@ -18,11 +18,11 @@ nav {
 }
 
 nav ul {
-  list-style: none; /* Remove list bullets */
+  list-style: none; 
   padding: 0;
   margin: 0;
-  display: flex; /* Horizontal navigation */
-  justify-content: center; /* Center the navigation items */
+  display: flex; 
+  justify-content: center;
 }
 
 nav ul li {
@@ -43,7 +43,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Header Styles */
+
 header {
   text-align: center;
   padding: 2em 0;
@@ -63,7 +63,7 @@ header p {
   color: #e2e2e2;
 }
 
-/* Section Styles */
+
 section {
   padding: 20px;
   margin: 20px auto;
@@ -74,25 +74,25 @@ section {
   color: #333;
 }
 
-/* Specific page styles for fluid and fixed layouts */
+
 .fluid-layout {
-  width: 90vw; /* Fluid width */
+  width: 90vw; ]
   max-width: 1200px;
-  padding: 2%; /* Relative padding */
-  margin: 2% auto; /* Relative margin */
+  padding: 2%; 
+  margin: 2% auto;
   display: block;
   box-sizing: border-box;
-  min-height: calc(100vh - 150px); /* Adjust based on actual header/footer height */
+  min-height: calc(100vh - 150px); 
 }
 
 .fixed-width-layout {
-  width: 960px; /* Fixed width */
+  width: 960px; 
   margin: 20px auto;
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border: 1px solid #ddd;
-  min-height: calc(100vh - 150px); /* Adjust based on actual header/footer height */
+  min-height: calc(100vh - 150px); 
 }
 
 /* Image Styles */
