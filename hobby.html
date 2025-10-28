@@ -2,46 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Hobby</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby - My Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="hobby.html">Hobby</a></li>
-        </ul>
-      </nav>
+      <h1>My Hobbies</h1>
+      <p>A glimpse into what I do for fun.</p>
     </header>
-
-    <h1>
-      My Hobbys: Photography, Video Editing, Gaming, Music, Volleyball,
-      3D Modeling, 3D Printing, Pc Building
-    </h1>
-
-    <p>
-      I enjoy taking pictures with my phone. Some of my work is shown below.
-      I also like to edit videos I take which is also shown below. Also in the
-      real world, I like listening to music and playing volleyball. In the
-      world of tech, I like to build computers, 3D model and Print, and game.
-    </p>
-
-    <img src="senior_sunrise.jpg" alt="Senior sunrise photo" width="400">
-    <img src="performative.JPG" alt="Performative event photo" width="400">
-    <img src="skyline.JPG" alt="Skyline photo" width="400">
-
-    <h2>Volleyball Edit:</h2>
-<iframe 
-  width="400" 
-  height="700" 
-  src="https://www.youtube.com/embed/j-17xO1ZPfg" 
-  title="YouTube Shorts video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-</iframe>
-
-
+    <main class="fixed-width-layout">
+      <section>
+        <h2>Electronics and Microchips</h2>
+        <p>
+          One of my primary hobbies is delving into the world of electronics,
+          especially microchips. I enjoy understanding how they work,
+          from their basic logic gates to complex architectures. I spend
+          time experimenting with microcontrollers like Arduino and Raspberry Pi,
+          building small circuits, and learning about embedded systems programming.
+        </p>
+        <img src="microchip_example.jpeg" alt="Microchip Example" style="width: 70%; margin: 1em auto;">
+        <p>
+          This fascination extends to reading about the latest advancements
+          in semiconductor technology and trying to grasp the intricate
+          details of chip design. It's a challenging yet rewarding hobby
+          that perfectly complements my interest in computer engineering.
+        </p>
+      </section>
+      <section>
+        <h2>Reading and Learning</h2>
+        <p>
+          When I'm not tinkering with electronics, I'm usually found with a
+          book or an online course. I have a broad interest in non-fiction,
+          particularly in areas like history, science, and philosophy.
+          I believe that continuous learning is key to personal and
+          professional growth. I also enjoy reading about new programming
+          languages and software development methodologies.
+        </p>
+        <p>
+          I also enjoy reading fiction, especially sci-fi and fantasy,
+          as a way to relax and explore imaginative worlds. It's a great way
+          to unwind and get inspired.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+    </footer>
   </body>
 </html>
