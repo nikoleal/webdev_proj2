@@ -1,0 +1,104 @@
+/* General Body Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Google Font and native browser font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Horizontal navigation */
+  justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 2em 0;
+  background: #007bff;
+  color: #fff;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific page styles for fluid and fixed layouts */
+.fluid-layout {
+  width: 90vw; /* Fluid width */
+  max-width: 1200px;
+  padding: 2%; /* Relative padding */
+  margin: 2% auto; /* Relative margin */
+}
+
+.fixed-width-layout {
+  width: 960px; /* Fixed width */
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
