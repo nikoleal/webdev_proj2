@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <h1>Welcome to My Personal Website</h1>
+    </header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,44 +17,29 @@
         <li><a href="resume.html">Resume</a></li>
       </ul>
     </nav>
-    <header>
-      <h1>Welcome to My Website</h1>
-    </header>
-    <main class="fluid-layout">
+    <div class="container">
       <section>
-        <h2>About Me</h2>
-        <p>
-          Hello! I'm an aspiring computer engineer with a passion for
-          technology and problem-solving. This website serves as a small
-          corner of the internet where I share my interests, projects,
-          and professional journey. I am currently honing my skills in
-          web development, programming, and hardware design.
-        </p>
-        <p>
-          I believe in continuous learning and adapting to new
-          technologies. My goal is to contribute to innovative solutions
-          that make a real-world impact. Feel free to navigate through
-          the pages to learn more about my hobbies and professional
-          background.
-        </p>
-        <img src="senior_sunrise.jpg" alt="Senior Sunrise" style="width: 80%; margin: 1em auto;">
-        <h3>My Vision</h3>
-        <p>
-          My vision is to combine my knowledge of software and hardware
-          to create efficient and user-friendly systems. I'm particularly
-          interested in embedded systems and artificial intelligence.
-          I'm always looking for opportunities to collaborate on exciting
-          projects and expand my expertise.
-        </p>
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+          <p>Hello! My name is [Your Name], and I'm excited to share a bit about myself with you. I am currently a student with a passion for technology and engineering. I enjoy learning new things and tackling challenges head-on.</p>
+          <p>Outside of academics, I have a keen interest in computer hardware and software, often spending my free time exploring new programming languages or understanding the intricate details of how computers work. I also enjoy engaging in hands-on projects, which you can learn more about on my hobby page.</p>
+          <img src="apple_chip.jpeg" alt="Apple M1 Chip Diagram">
+          <p>This image illustrates the architecture of a modern processor, similar to the components I enjoy studying and working with. The complexity and efficiency of such designs always fascinate me.</p>
+        </div>
       </section>
+
       <section>
-        <h2>What You'll Find Here</h2>
-        <ul>
-          <li>Details about my favorite hobbies and interests.</li>
-          <li>My academic and professional resume.</li>
-          <li>Insights into my current projects and learning experiences.</li>
-        </ul>
+        <h2 class="section-title">My Goals</h2>
+        <div class="card">
+          <p>My primary goal is to pursue a career in software development or hardware engineering. I aspire to contribute to innovative projects that make a significant impact on technology and society. I am particularly interested in areas like artificial intelligence, machine learning, and embedded systems.</p>
+          <p>I am continuously working to expand my skill set, learn new technologies, and collaborate with like-minded individuals to bring exciting ideas to life. This website is a small step in documenting my journey and sharing my progress.</p>
+          <img src="microchip_example.jpeg" alt="Close-up of a Microchip">
+          <p>Here is another example of the kind of intricate technology that captivates my interest. The details on a microchip are a testament to human ingenuity.</p>
+        </div>
       </section>
-    </main>
+    </div>
+    <footer>
+      <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
   </body>
 </html>
