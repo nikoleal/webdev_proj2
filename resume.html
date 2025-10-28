@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - My Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <h1>My Professional Resume</h1>
+    </header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,55 +17,81 @@
         <li><a href="resume.html">Resume</a></li>
       </ul>
     </nav>
-    <header>
-      <h1>My Resume</h1>
-    </header>
-    <main class="fluid-layout">
+    <div class="fixed-width-container">
       <section>
-        <h2>Education</h2>
-        <h3>Bachelor of Science in Computer Engineering</h3>
-        <p><strong>University Name:</strong> [Your University]</p>
-        <p><strong>Graduation Date:</strong> [Expected Graduation Date]</p>
-        <ul>
-          <li>Relevant Coursework: Data Structures, Algorithms, Digital Logic Design, Microprocessor Systems, Web Development</li>
-          <li>GPA: [Your GPA]</li>
-        </ul>
+        <h2 class="section-title">Contact Information</h2>
+        <div class="card">
+          <p><strong>Name:</strong> [Your Name]</p>
+          <p><strong>Email:</strong> your.email@example.com</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/yourprofile</a></p>
+          <p><strong>GitHub:</strong> <a href="#">github.com/yourprofile</a></p>
+        </div>
       </section>
+
       <section>
-        <h2>Work Experience</h2>
-        <h3>Software Engineering Intern</h3>
-        <p><strong>Company Name:</strong> [Company A]</p>
-        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
-        <ul>
-          <li>Developed and maintained web applications using [Technologies Used, e.g., Python, JavaScript, React].</li>
-          <li>Collaborated with a team of engineers to implement new features and debug existing code.</li>
-          <li>Participated in agile development sprints, including daily stand-ups and sprint reviews.</li>
-        </ul>
-        <h3>Hardware Engineering Assistant</h3>
-        <p><strong>Company Name:</strong> [Company B]</p>
-        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
-        <ul>
-          <li>Assisted in the design and testing of [Type of hardware, e.g., circuit boards, embedded systems].</li>
-          <li>Conducted performance analysis and troubleshooting on hardware prototypes.</li>
-          <li>Documented design specifications and test procedures.</li>
-        </ul>
+        <h2 class="section-title">Summary</h2>
+        <div class="card">
+          <p>Highly motivated and detail-oriented student with a strong passion for technology and engineering. Eager to apply academic knowledge and hands-on experience to contribute to innovative projects and grow in a dynamic professional environment.</p>
+        </div>
       </section>
+
       <section>
-        <h2>Skills</h2>
-        <ul>
-          <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript, HTML, CSS</li>
-          <li><strong>Frameworks & Libraries:</strong> React, Node.js, Django, Flask</li>
-          <li><strong>Tools & Technologies:</strong> Git, Docker, AWS, Linux, VS Code</li>
-          <li><strong>Hardware:</strong> Arduino, Raspberry Pi, PCB Design, Verilog, VHDL</li>
-        </ul>
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+          <h3>[Your High School Name]</h3>
+          <p><strong>Graduation:</strong> [Month, Year]</p>
+          <p>Relevant Coursework: AP Computer Science, Physics, Calculus, Engineering Design</p>
+        </div>
       </section>
+
       <section>
-        <h2>Projects</h2>
-        <h3>Smart Home Automation System</h3>
-        <p>Developed an IoT-based system to control home appliances using a web interface and voice commands.</p>
-        <h3>Personal Portfolio Website</h3>
-        <p>Designed and built this responsive website to showcase my projects, skills, and interests.</p>
+        <h2 class="section-title">Experience</h2>
+        <div class="card">
+          <h3>Engineering Club Lead</h3>
+          <p><strong>[Your High School Name]</strong> | [Start Date] - Present</p>
+          <ul>
+            <li>Led a team of 5 in the design and construction of a fully functional go-kart.</li>
+            <li>Managed project timelines, delegated tasks, and ensured adherence to safety standards.</li>
+            <li>Developed problem-solving skills and fostered teamwork among members.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Volunteer Web Developer</h3>
+          <p><strong>[Organization Name]</strong> | [Start Date] - [End Date]</p>
+          <ul>
+            <li>Assisted in developing and maintaining the organization's website using HTML and CSS.</li>
+            <li>Collaborated with team members to implement new features and improve user experience.</li>
+            <li>Learned practical aspects of web development and project management.</li>
+          </ul>
+        </div>
       </section>
-    </main>
+
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="card">
+          <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, JavaScript, C++</li>
+            <li><strong>Web Technologies:</strong> HTML, CSS</li>
+            <li><strong>Software:</strong> Git, VS Code, AutoCAD, SolidWorks</li>
+            <li><strong>Hardware:</strong> Microcontrollers (Arduino), Basic Circuit Design</li>
+            <li><strong>Soft Skills:</strong> Problem-Solving, Teamwork, Communication, Project Management</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Awards & Achievements</h2>
+        <div class="card">
+          <ul>
+            <li>[Award/Achievement 1]</li>
+            <li>[Award/Achievement 2]</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
   </body>
 </html>
