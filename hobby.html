@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobby - My Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Hobbies</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+      <h1>My Hobbies and Interests</h1>
+    </header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,43 +17,38 @@
         <li><a href="resume.html">Resume</a></li>
       </ul>
     </nav>
-    <header>
-      <h1>My Hobbies</h1>
-    </header>
-    <main class="fixed-width-layout">
+    <div class="container">
       <section>
-        <h2>Electronics and Microchips</h2>
-        <p>
-          One of my primary hobbies is delving into the world of electronics,
-          especially microchips. I enjoy understanding how they work,
-          from their basic logic gates to complex architectures. I spend
-          time experimenting with microcontrollers like Arduino and Raspberry Pi,
-          building small circuits, and learning about embedded systems programming.
-        </p>
-        <img src="microchip_example.jpeg" alt="Microchip Example" style="width: 70%; margin: 1em auto;">
-        <p>
-          This fascination extends to reading about the latest advancements
-          in semiconductor technology and trying to grasp the intricate
-          details of chip design. It's a challenging yet rewarding hobby
-          that perfectly complements my interest in computer engineering.
-        </p>
+        <h2 class="section-title">Engineering Club</h2>
+        <div class="card">
+          <p>One of my main hobbies is participating in the engineering club at my school. We work on various projects, from designing and building small robots to constructing model bridges. It's a great way to apply theoretical knowledge to practical problems and collaborate with a team.</p>
+          <img src="engineering_club.jpg" alt="Engineering Club working on a project">
+          <p>This photo shows me and my teammates working on a go-kart project. We spent countless hours designing, fabricating, and assembling this vehicle, learning a lot about mechanical engineering and teamwork in the process.</p>
+        </div>
       </section>
+
       <section>
-        <h2>Reading and Learning</h2>
-        <p>
-          When I'm not tinkering with electronics, I'm usually found with a
-          book or an online course. I have a broad interest in non-fiction,
-          particularly in areas like history, science, and philosophy.
-          I believe that continuous learning is key to personal and
-          professional growth. I also enjoy reading about new programming
-          languages and software development methodologies.
-        </p>
-        <p>
-          I also enjoy reading fiction, especially sci-fi and fantasy,
-          as a way to relax and explore imaginative worlds. It's a great way
-          to unwind and get inspired.
-        </p>
+        <h2 class="section-title">Photography</h2>
+        <div class="card">
+          <p>I also have a passion for photography. I enjoy capturing moments, landscapes, and urban scenes. It allows me to see the world from a different perspective and express my creativity through visual storytelling.</p>
+          <img src="senior_sunrise.jpg" alt="Senior Sunrise event">
+          <p>This image captures the beautiful senior sunrise event. I love how photography can freeze such memorable moments in time, allowing us to revisit them later.</p>
+          <img src="skyline.JPG" alt="City skyline at night">
+          <p>Another one of my favorite shots is this city skyline at night. The vibrant lights and dynamic architecture make for a captivating subject.</p>
+        </div>
       </section>
-    </main>
+
+      <section>
+        <h2 class="section-title">Reading and Learning</h2>
+        <div class="card">
+          <p>Beyond practical activities, I spend a good portion of my free time reading and continuously learning. Whether it's diving into a new programming book, exploring historical events, or keeping up with the latest technological advancements, I believe in constant self-improvement.</p>
+          <img src="performative.JPG" alt="Person reading a book in a hallway">
+          <p>Here's a candid shot of me engrossed in a book. I find immense joy in expanding my knowledge and understanding of various subjects.</p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
   </body>
 </html>
