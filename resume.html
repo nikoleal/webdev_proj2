@@ -1,53 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - My Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
-  
   <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="hobby.html">Hobby</a></li>
-        </ul>
-      </nav>
+      <h1>My Resume</h1>
+      <p>My Professional Journey and Skills</p>
     </header>
-    <h1>My Resume</h1>
-    <h2>Educaton</h2>
-    <p>Jones College Preparatory, Chicago, Illinois</p>
-    <ul>
-      <li>Graduation Date: May, 2026</li>
-      <li>Unweighted GPA: 3.75</li>
-      <li>Weighted GPA: 4.72</li>
-      <li>Advanced Placement courses taken or taking: AP Calculus AB, AP Computer Science A, AP Physics C: Mechanics</li>
-      <li>Dual Enrollment/Dual Credit courses taken or taking: ITDM 361 and CS 331. </li>
-    </ul>
-    <h2>Experience</h2>
-      <p>Camp Counselor - Flying High Sports and Rec Center (08/30/2024 - Present)</p>
+    <main class="fluid-layout">
+      <section>
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Computer Engineering</h3>
+        <p><strong>University Name:</strong> [Your University]</p>
+        <p><strong>Graduation Date:</strong> [Expected Graduation Date]</p>
         <ul>
-          <li>Supervise campers</li>
-          <li>Lead Activites</li>
-          <li>Encourage Participation</li>
-          <li>Provide Basic First Aid</li>
+          <li>Relevant Coursework: Data Structures, Algorithms, Digital Logic Design, Microprocessor Systems, Web Development</li>
+          <li>GPA: [Your GPA]</li>
         </ul>
-    <h2>Extra-Cirricular Activities</h2>
-    <p>Engineering Club - Leader (12th grade - Present))</p>
-    <ul>
-      <li>My job as one of the 3 leaders of the Engineering Club is to make sure that every member gets the help that they need every other tuesday from 3:30-4:30. I dedicate time to go over and study concepts that members want to re/learn for help in and outside of class. I make sure that everyone learns together and feels included as that is what makes engineering better and more enjoyable.</li>
-    </ul>
-    <p>Club Volleyball - OH/Libero (10th grade - Present)</p>
-    <ul>
-      <li>I started playing club to further my volleyball skills and my team placed 36th in the silver bracket at nationals</li>
-    </ul>
-    <p>Jv Volleyball - Libero (9th grade - 10th grade)</p>
-    <ul>
-      <li>I was recruited to the team as a backup player and worked my way up to be a starting Libero</li>
-    </ul>
-    <img src="engineering_club.jpg" alt="Image of Engineeiring Club at Elmore Family School of Electrical and Computer Engineering">
-    <p>Image of Engineeiring Club at Elmore Family School of Electrical and Computer Engineering</p>
+      </section>
+      <section>
+        <h2>Work Experience</h2>
+        <h3>Software Engineering Intern</h3>
+        <p><strong>Company Name:</strong> [Company A]</p>
+        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
+        <ul>
+          <li>Developed and maintained web applications using [Technologies Used, e.g., Python, JavaScript, React].</li>
+          <li>Collaborated with a team of engineers to implement new features and debug existing code.</li>
+          <li>Participated in agile development sprints, including daily stand-ups and sprint reviews.</li>
+        </ul>
+        <h3>Hardware Engineering Assistant</h3>
+        <p><strong>Company Name:</strong> [Company B]</p>
+        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
+        <ul>
+          <li>Assisted in the design and testing of [Type of hardware, e.g., circuit boards, embedded systems].</li>
+          <li>Conducted performance analysis and troubleshooting on hardware prototypes.</li>
+          <li>Documented design specifications and test procedures.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript, HTML, CSS</li>
+          <li><strong>Frameworks & Libraries:</strong> React, Node.js, Django, Flask</li>
+          <li><strong>Tools & Technologies:</strong> Git, Docker, AWS, Linux, VS Code</li>
+          <li><strong>Hardware:</strong> Arduino, Raspberry Pi, PCB Design, Verilog, VHDL</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <h3>Smart Home Automation System</h3>
+        <p>Developed an IoT-based system to control home appliances using a web interface and voice commands.</p>
+        <h3>Personal Portfolio Website</h3>
+        <p>Designed and built this responsive website to showcase my projects, skills, and interests.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+    </footer>
   </body>
 </html>
